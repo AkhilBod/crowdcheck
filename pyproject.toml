@@ -1,0 +1,16 @@
+[project]
+name = "crowdcheck"
+version = "0.1.0"
+description = "Figure out which labels and labelers to trust when there's no answer key"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["crowdcheck"]
